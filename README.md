@@ -1,4 +1,5 @@
 # NYUAD-Hackathon-Team1
+We are the QSPirates
 
 ## Quantum Sensor:
 

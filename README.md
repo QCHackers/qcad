@@ -6,6 +6,7 @@ We are developing a quantum sensor simulator for virus detection. Quantum Sensor
 
 ### Files in repo:
 - QASM.ipynb: we obtain the hamiltonian which gives us the mathematical expression to simulate the quantum sensor and the time evolution to for the quantum circuit (done under pi/3 time)
+- quantum-sensing-simulator.ipynb: 
 
 ### How to run:
 

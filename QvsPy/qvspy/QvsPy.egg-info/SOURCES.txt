@@ -1,0 +1,6 @@
+setup.py
+qvspy/QvsPy.egg-info/PKG-INFO
+qvspy/QvsPy.egg-info/SOURCES.txt
+qvspy/QvsPy.egg-info/dependency_links.txt
+qvspy/QvsPy.egg-info/requires.txt
+qvspy/QvsPy.egg-info/top_level.txt

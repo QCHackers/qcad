@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/QvsPy.egg-info/PKG-INFO
+src/QvsPy.egg-info/SOURCES.txt
+src/QvsPy.egg-info/dependency_links.txt
+src/QvsPy.egg-info/requires.txt
+src/QvsPy.egg-info/top_level.txt

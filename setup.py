@@ -9,9 +9,16 @@ description="Quantum virus sensing on Python"
 # README file as long_description.
 long_description = io.open("README.md", encoding="utf-8").read()
 
-# Read in requirements
-requirements = open("requirements.txt").readlines()
-requirements = [r.strip() for r in requirements]
+
+requirements = ["wheel",
+"amazon-braket-sdk==1.18.0",
+"boto3==1.21.30",
+"ibm-quantum-widgets==1.0.3",
+"numpy == 1.21.5",
+"qiskit==0.34.2",
+"qiskit-experiments",
+"notebook"]
+
 
 qvspy_packages = ["qvspy"] + [
     "qvspy." + package for package in find_packages(where="qvspy")

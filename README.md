@@ -16,7 +16,9 @@ pip install -r requirements.txt
 ## :pushpin: Our Presentation:
 <a href="https://docs.google.com/presentation/d/1tGQJYqsjqwhEyuAZIz0sj8kbg4G6sX05075WiX1tZRs/edit?usp=sharing">Google Slide</a>
 ## :star: Our Team:
-.....
+Ashith, Genie, Zayd, Phillip, China, Dania, Jakub, Jawaher, Sakib
+
+Mentors: Nouhaila Innan & Victory Omole
 
 ## References
 

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>main API documentation</title>
+<title>QvsPy API documentation</title>
 <meta name="description" content="" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
@@ -53,7 +53,7 @@ class QuantumSensor():
     &#39;&#39;&#39;
     __init__() function sets up the noise model and the backend for the quantum simulator. The noise model is a simulator to the quantum computer
     whereas the backend is the actual quantum sensor. The experiements can be conducted on any one qubit of the quantum circuit. Delays depend
-    on the materials of the sensor.s
+    on the materials of the sensor.
     &#39;&#39;&#39;
     def __init__(self) -&gt; None:
         self.noise_model = NoiseModel.from_backend(
@@ -89,7 +89,7 @@ class QuantumSensor():
 <dd>
 <div class="desc"><p><strong>init</strong>() function sets up the noise model and the backend for the quantum simulator. The noise model is a simulator to the quantum computer
 whereas the backend is the actual quantum sensor. The experiements can be conducted on any one qubit of the quantum circuit. Delays depend
-on the materials of the sensor.s</p></div>
+on the materials of the sensor.</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
@@ -99,7 +99,7 @@ on the materials of the sensor.s</p></div>
     &#39;&#39;&#39;
     __init__() function sets up the noise model and the backend for the quantum simulator. The noise model is a simulator to the quantum computer
     whereas the backend is the actual quantum sensor. The experiements can be conducted on any one qubit of the quantum circuit. Delays depend
-    on the materials of the sensor.s
+    on the materials of the sensor.
     &#39;&#39;&#39;
     def __init__(self) -&gt; None:
         self.noise_model = NoiseModel.from_backend(
@@ -124,7 +124,11 @@ on the materials of the sensor.s</p></div>
 <span>def <span class="ident">T1_experiment</span></span>(<span>self, qubit, delays)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc">
+    <p>@parameter: qubit - the qubit to measure
+        @parameter: delays - the iterator of time intervals to measure
+        @return: the results of T1 experiment of the qubit</p>
+</div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
@@ -143,7 +147,7 @@ on the materials of the sensor.s</p></div>
 </article>
 <nav id="sidebar">
     <div style="text-align: center;">
-        <img  src="../../img/QvsPy.png" height="200vh">
+        <img  src="img/QvsPy.png" height="200vh">
 </div>
 <h1>Index</h1>
 <div class="toc">

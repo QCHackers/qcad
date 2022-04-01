@@ -6,7 +6,8 @@ We are developing a quantum sensor simulator for virus detection. Quantum Sensor
 
 ### :pushpin: Files in repo:
 
-- Quantum-Sensing-Simulator.ipynb: quantum sensor simulator[^1]   
+- Quantum-Sensing-Simulator.ipynb: quantum sensor simulator[^1]  
+- Hamiltonian.ipynb: Hamiltonian for simulating physical device[^2] 
 
 ## :pushpin: How to run:
 
@@ -23,3 +24,4 @@ Mentors: Nouhaila Innan & Victory Omole
 ## References 
 
 [^1]: Danilin, S., and M. Weides. "Quantum sensing with superconducting circuits." *arXiv preprint arXiv:2103.11022* (2021).
+[^2]: Li, Changhao, et al. "SARS-CoV-2 quantum sensor based on nitrogen-vacancy centers in diamond." *Nano letters* 22.1 (2021): 43-49.

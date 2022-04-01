@@ -20,6 +20,6 @@ Ashith, Genie, Zayd, Phillip, China, Dania, Jakub and Sakib.
 
 Mentors: Nouhaila Innan & Victory Omole
 
-## References
+## References 
 
 [^1]: Danilin, S., and M. Weides. "Quantum sensing with superconducting circuits." *arXiv preprint arXiv:2103.11022* (2021).

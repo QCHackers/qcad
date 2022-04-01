@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 
 import numpy as np
 
@@ -17,11 +15,8 @@ from qiskit.providers.aer import QasmSimulator
 provider = IBMQ.load_account()
 
 
-# In[2]:
-
 
 #with only diamond
-import numpy as np
 from qiskit_experiments.framework import ParallelExperiment
 from qiskit_experiments.library import T1
 

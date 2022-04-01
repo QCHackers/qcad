@@ -26,7 +26,7 @@ qvspy_packages = ["qvspy"] + [
 
 setup(
     name=name,
-    version='0.0.1',
+    version='0.0.3',
     url="https://github.com/SupertechLabs/cirq-superstaq",
     author="QS Pirates",
     author_email="vtomole2@gmail.com",

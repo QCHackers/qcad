@@ -14,7 +14,7 @@ requirements = ["wheel",
 "amazon-braket-sdk==1.18.0",
 "boto3==1.21.30",
 "ibm-quantum-widgets==1.0.3",
-"numpy == 1.21.5",
+"numpy",
 "qiskit==0.34.2",
 "qiskit-experiments",
 "notebook"]
